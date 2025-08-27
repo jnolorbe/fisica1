@@ -14,7 +14,7 @@ project:
     - cinemática
     - dinamica
     - jupyter-book
-  github: https://github.com/jnolorbe/fisica1
+  github: jnolorbe/fisica1
   toc:
     - file: intro.md
     - part: Capítulo 1
