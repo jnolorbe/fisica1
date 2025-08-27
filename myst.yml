@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
+  title: Fisica I - Introducción a la Mecánica Clásica
+  description: |
+    Este es un libro de texto para el curso de Física I, diseñado para estudiantes
+    con conocimientos de cálculo. Incluye teoría, ejemplos y una colección de
+    ejercicios resueltos y propuestos para el desarrollo del semestre.
+  keywords:
+    - fisica
+    - mecanica
+    - calculo
+    - cinemática
+    - dinamica
+    - jupyter-book
+  github: https://github.com/jnolorbe/fisica1
+  toc:
+    - file: intro.md
+    - part: Capítulo 1
+      title: 1. Mediciones y Cálculos
+      children:
+        - file: capitulo1/mediciones.md
+        - file: capitulo1/ejercicio01.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
