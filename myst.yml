@@ -2,11 +2,11 @@
 version: 1
 project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
-  title: Fisica I - Introducción a la Mecánica Clásica
+  title: FÍSICA 1
   description: |
-    Este es un libro de texto para el curso de Física I, diseñado para estudiantes
-    con conocimientos de cálculo. Incluye teoría, ejemplos y una colección de
-    ejercicios resueltos y propuestos para el desarrollo del semestre.
+    Este es un libro de texto para el curso de Física 1, diseñado para estudiantes de ingenieriía
+    con conocimientos de cálculo. Incluye una colección de problemas resueltos y propuestos que buscan 
+    desarrollar capacidades necesarias en todo profesional de ciencias e ingeniería.
   keywords:
     - fisica
     - mecanica
@@ -17,11 +17,10 @@ project:
   github: jnolorbe/fisica1
   toc:
     - file: intro.md
-    - part: Capítulo 1
-      title: 1. Mediciones y Cálculos
+    - title: 1. Cantidades físicas
       children:
-        - file: capitulo1/mediciones.md
-        - file: capitulo1/ejercicio01.md
+        - file: capitulo1/cifrassignificativas.md
+        - file: capitulo1/vectores.md
 site:
   template: book-theme
   # options:
