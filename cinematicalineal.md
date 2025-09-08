@@ -1,11 +1,11 @@
 # Cinemática lineal
 
-## 📖 Movimiento rectilineo uniforme
+## 📖 Movimiento Rectilineo Acelerado
 ## 📌 Problemas Resueltos
 **_Ejemplo 1:_**\
 En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. 
 
-```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cienmatica01.png
+```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica01.png
 :alt: cinematica
 :width: 400px
 :align: center
@@ -23,7 +23,7 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 **_Ejemplo 2:_**\
 En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. Calcular la distancia recorrida hasta el instante que se detiene. 
 
-```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cienmatica02.png
+```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
 :alt: cinematica
 :width: 400px
 :align: center
