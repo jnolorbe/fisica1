@@ -133,7 +133,7 @@ $W_{neto} = 5550 \text{ J}$
 3. Una persona realiza los siguientes desplazamientos: $\vec{\Delta r}_1 = (400 \hat{i} + 300 \hat{j}) \text{ m}$, $\vec{\Delta r}_2 = (-1000 \hat{i} + 800 \hat{j}) \text{ m}$ 
 y $\vec{\Delta r}_3 = (1400 \hat{i} - 1300 \hat{j}) \text{ m}$. Calcular el módulo del desplazmaiento total.
 
-4. Se empuja una caja hacia arriba sobre un plano inclinado de $30^\circ$, la fuerza empleada tiene una magnitud de $500 \text{ N} y forma $43^\circ$ con la horizoantal. 
+4. Se empuja una caja hacia arriba sobre un plano inclinado de $30^\circ$, la fuerza empleada tiene una magnitud de $500 \text{ N}$ y forma $43^\circ$ con la horizoantal. 
 Calcular el trabajo de la fuerza empleada.
 
 5. Calcula el trabajo desarrollado por una fuerza horizontal $\vec{F} = 1500 \hat{i} \text{ N}$ que empuja a un bloque, tal que se desplaza $\vec{\Delta r} = (400 \hat{i} + 300 \hat{j}) \text{ m}$ 

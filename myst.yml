@@ -3,8 +3,7 @@ version: 1
 project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
   title: FÍSICA 1
-  description: |
-    Este es un libro de texto para el curso de Física 1, diseñado para estudiantes de ingenieriía
+  description: Este es un libro de texto para el curso de Física 1, diseñado para estudiantes de ingenieriía
     con conocimientos de cálculo. Incluye una colección de problemas resueltos y propuestos que buscan 
     desarrollar capacidades necesarias en todo profesional de ciencias e ingeniería.
   keywords:
@@ -19,8 +18,12 @@ project:
     - file: intro.md
     - title: 1. Cantidades físicas
       children:
-        - file: capitulo1/cifrassignificativas.md
-        - file: capitulo1/vectores.md
+        - file: cifrassignificativas.md
+        - file: vectores.md
+    - title: 2. Cinemática lineal
+      children:
+        - file: cinematicalineal.md
+#        - file: graficascinematicas.md
 site:
   template: book-theme
   # options:
