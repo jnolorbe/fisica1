@@ -7,7 +7,7 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica01.png
 :alt: cinematica
-:width: 400px
+:width: 100%
 :align: center
 ```
 - Expresar la ecuación de la posición en función del tiempo.
@@ -25,7 +25,7 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
 :alt: cinematica
-:width: 400px
+:width: 100%
 :align: center
 ```
 
