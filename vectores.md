@@ -29,7 +29,9 @@ Donde:
 * $A_y$ es el componente del vector en el eje y.
 
 ---
-**_Ejemplo 1:_**\
+
+```{admonition} Ejemplo 1 
+:class: important
 El vector $\vec{A}$ de la figura representa la aceleración de una partícula. Expresar la aceleración en función de sus componentes y calcular su magnitud.
 
 ```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Position_vector.svg/250px-Position_vector.svg.png
@@ -38,13 +40,17 @@ El vector $\vec{A}$ de la figura representa la aceleración de una partícula. E
 :align: center
 ```
 
-```{admonition} Resolución
-:class: dropdown
-- Expresamos $\vec{A}$ en función de sus componentes:\
-$\vec{A} = (2 \hat{i} + 3 \hat{j}) m/s^2$
+```{admonition} Solución
+:class: dropdown hint
 
-- Calculamo su módulo:\
-$A = \sqrt{2^2 + 3^2} = 3.6 m/s^2$
+- Expresamos $\vec{A}$ en función de sus componentes:
+
+    $\vec{A} = (2 \hat{i} + 3 \hat{j}) \, m/s^2$
+
+- Calculamos el módulo del $\vec{A}$:
+
+    $A = \sqrt{2^2 + 3^2} = 3.6 \, m/s^2$
+```
 ```
 ---
 

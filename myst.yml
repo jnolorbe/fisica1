@@ -23,7 +23,7 @@ project:
     - title: 2. Cinemática lineal
       children:
         - file: cinematicalineal.md
-#        - file: graficascinematicas.md
+        - file: graficascinematicas.md
 site:
   template: book-theme
   options:

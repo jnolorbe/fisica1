@@ -1,6 +1,4 @@
 # Cinemática lineal
-
-## 📖 Movimiento Rectilineo Acelerado
 ---
 ## 📌 Problemas Resueltos
 ### Problema 1
@@ -330,4 +328,19 @@ Grafique la posición en función del tiempo.
 
 3. Una partícula se mueve en linea recta tal que su posición es una función cúbica del tiempo, $x = 2(t -3)^3 + 54$. Analizar el movimiento y deducir el intervalo de tiempo cuando la rapidez de la particula aumenta o disminuye.
 
+---
+
+## Practica Calificada 2
+
+1. En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta, la particula es frenada hasta detenerse. 
+
+- Matematizar la posición en función del tiempo.
+- Deducir la ecuación de la velocidad y de la aceleración usando límites. 
+- ¿Cuál es la distancia recorrida en el último segundo de su movimiento?
+
+```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
+:alt: cinematica
+:width: 100%
+:align: center
+```
 ---
