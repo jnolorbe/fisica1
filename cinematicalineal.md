@@ -1,4 +1,4 @@
-# Cinemática lineal
+# Ecuaciones Cinemáticas
 ---
 ## 📌 Problemas Resueltos
 ### Problema 1

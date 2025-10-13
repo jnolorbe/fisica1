@@ -7,11 +7,7 @@
 ### Problema 1
 ```{admonition}  Gráfica posición - tiempo
 :class: important
-En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta. 
-
-**a)** Bosquejar el movimiento de la partícula.  
-**b)** Expresar las ecuaciones cinemáticas.  
-**c)** Describir el movimiento de la partícula.  
+En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta. Expresar las ecuaciones cinemáticas del movimiento.
 
 
 ```{figure} https://static.wixstatic.com/media/148d92_15acaaca11534950b99f75e32a8a87e1~mv2.png
@@ -19,11 +15,30 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 :width: 100%
 :align: center
 ```
-<!--
+
 ```{admonition} Solución
 :class: dropdown hint
+
+En la figura se observa que el movimiento de la partícula puede ser dividido en tres tramos, AB, BC y CD. Analizamos cada tramo: 
+
+**Tramo AB:**  
+La gráfica $x \, vs. \, t$ es una línea recta, entonces el movimiento es con velocidad constante, por lo tanto la aceleración es nula. La velocidad es la pendiente de la recta en este tramo:
+
+$\vec{v} = pendiente = \frac{\Delta x}{\Delta t} = \frac{3km - 0km}{10 min - 0min} $
+
+$\vec{v} = 3  \, km/min = 50 \,  m/s  $
+
+La ecuación de la posición es una función lineal:  
+
+$ x = x_0 + \vec{v}t$
+
+$x = 50t$
+
+
+
 ```
--->
+
+
 ---
 ### Problema 2
 

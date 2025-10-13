@@ -24,6 +24,10 @@ project:
       children:
         - file: cinematicalineal.md
         - file: graficascinematicas.md
+    - title: 3. Cinemática curvilinea
+      children:
+        - file: cinematicaparabolica.md
+        #- file: graficascinematicas.md
 site:
   template: book-theme
   options:
