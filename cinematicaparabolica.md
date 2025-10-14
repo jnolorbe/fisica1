@@ -150,6 +150,7 @@ Se disparan proyectiles desde un acantilado de altura  $ h = 250 \, m$ hasta bar
 
 ---
 _✨**Sintésis:** Para un proyectil lanzado desde una cierta altura, existe un ángulo de alcance horizontal máximo. Una estrategia para deducir este ángulo es derivar la ecuación del alcance horizontal en función del ángulo de disparo e igualar a cero. Una vez obtenido este ángulo se deduce el alcance horizontal máximo. En este caso el ángulo de alcance horizontal máximo es aproximadamente $39\degree$ lo que da un alcance horizontal máximo $R_{max} = 124.6 \, m$._
+
 ---
 ```
 
