@@ -8,7 +8,7 @@ Determinar la velocidad horizontal mínima con la que debe ser lanzado un cuerpo
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/parabolico01.png
 :alt: lanzamiento horizontal
-:width: 100%
+:width: 60%
 :align: center
 ```
 
@@ -174,6 +174,6 @@ _✨**Sintésis:** Para un proyectil lanzado desde una cierta altura, existe un 
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/enfrentamiento.png
 :alt: enfrentamiento
-:width: 100%
+:width: 50%
 :align: center
 ```
