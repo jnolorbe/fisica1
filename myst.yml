@@ -28,6 +28,10 @@ project:
       children:
         - file: cinematicaparabolica.md
         #- file: graficascinematicas.md
+    - title: 4. Dinámica líneal
+      children:
+        - file: fuerzasconstantes.md
+        
 site:
   template: book-theme
   options:
