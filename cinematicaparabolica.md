@@ -6,7 +6,7 @@
 :class: important
 Determinar la velocidad horizontal mínima con la que debe ser lanzado un cuerpo para que pueda superar el obstáculo B.
 
-```{figure} http://www.sc.ehu.es/sbweb/fisica_/cinematica/curvilineo/parabolico/parabolico2.gif
+```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica01.png
 :alt: lanzamiento horizontal
 :width: 100%
 :align: center
