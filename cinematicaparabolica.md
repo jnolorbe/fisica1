@@ -7,8 +7,13 @@
 Determinar la velocidad horizontal mínima con la que debe ser lanzado un cuerpo para que pueda superar el obstáculo B.
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/parabolico01.png
+<<<<<<< HEAD
 :alt: cinematica
 :width: 60%
+=======
+:alt: lanzamiento horizontal
+:width: 100%
+>>>>>>> bfc03c1dd6c35a8efbd5aa14c08aaf391db060f3
 :align: center
 ```
 
@@ -159,6 +164,7 @@ _✨**Sintésis:** Para un proyectil lanzado desde una cierta altura, existe un 
 
 ## 💡 Ejercicios propuestos
 
+<<<<<<< HEAD
 1. Un avión de provisiones vuela a una altura  $ h = 3500 \, m$ con una velocidad horizontal crucero de $v_o = 800 \, km/h$ ¿en que momento debe dejar caer las provisiones para que estas lleguen a su objetivo?
 
 2. Un jugador patea una pelota con una velcoidad de $10 \,m/s$. Deducir la distancia horizontal máxima que puede lograr.
@@ -180,3 +186,6 @@ _✨**Sintésis:** Para un proyectil lanzado desde una cierta altura, existe un 
 :width: 100%
 :align: center
 ```
+=======
+1. Un avion que vuela a una altura  $ h = 3500 \, m$ con una velocidad crucero de $v_o = 800 \, km/h$, deja caer una bomba. Deduducir la distancia horizontal que alcanza la bomba.
+>>>>>>> bfc03c1dd6c35a8efbd5aa14c08aaf391db060f3
