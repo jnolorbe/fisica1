@@ -26,7 +26,7 @@ Si el bloque $A$ de $20\,kg$ se desliza por el plano inclinado con una velocidad
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/hibbeler1.png
 :alt: deslizamiento inclinado
-:width: 80%
+:width: 50%
 :align: center
 **Referencia** Russel C. Hibbeler
 ```
@@ -41,7 +41,7 @@ Determine la masa requerida del bloque $A$ para que, al soltarlo desde el reposo
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/hibbeler2.png
 :alt: poleas
-:width: 80%
+:width: 40%
 :align: center
 **Referencia** Russel C. Hibbeler
 ```
@@ -56,7 +56,7 @@ Determine la aceleración del sistema y la tensión en cada cable. El plano incl
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/hibbeler3.png
 :alt: plano inclinado y poleas
-:width: 80%
+:width: 50%
 :align: center
 **Referencia** Russel C. Hibbeler
 ```
