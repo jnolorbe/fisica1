@@ -1,10 +1,56 @@
 # Ecuaciones Cinemáticas
 ---
 ## 📌 Problemas Resueltos
+
 ### Problema 1
+```{admonition}  Movimiento Rectilíneo Uniforme
+:class: important
+Una particula se mueve en linea recta con velocidad constante, tal que su posición en función del tiempo es regsitrado en la tabla mostrada, deducir las ecuaciones cinemáticas del movimiento.
+
+|  |  |  |  |  |  | 
+|-----|-----|-----|-----|-----|-----|
+| t(s) | 0.00 | 0.10 | 0.20 | 0.30 | 0.40 | 
+| x(m) | 0.10 | 0.15 | 0.20 |0.25 | 0.30 | 
+
+```
+
+```{admonition} Solución
+:class: dropdown hint
+
+1. **Deducimos la ecuación de la posición en función del tiempo**. En la tabla se observa que el movil recorre distancias iguales en intervalos de tiempos iguales.  Se trata de un movimiento rectilíneo uniforme. En este caso, cada intervalo de tiempo de $0.10s$ recorre $0.05m$, su velocidad es constante $\vec{v} = 0.05m/0.10s = 0.50 \,m/s$. La posición en función del tiempo es una función lineal, considerando los valores de la tabla la ecuación de la posición esta dado por:
+
+    $x = x_0 + \vec{v}t$
+
+    Reemplazando, $x_0 = 0.10 \, m$ y $\vec{v} = + 0.50 \, m/s$:
+
+    $x = 0.10 + 0.50 t$
+
+2. ✨ **Sintésis:** La partícula hace un movimiento rectilíneo uniforme, con velocidad $0.50 \, m/s$. Las ecuaciones cinemáticas son:
+
+    - $x = 0.10 + 0.50 t$
+
+    - $\vec{v} = +0.50$
+
+    - $\vec{a} = 0$
+
+---
+**Hazlo Tú**, Expresa las ecuaciones cinemáticas del MRU, tal que cumpla las siguientes condiciones:
+
+a) $t = 0 \,s \, ; x_0 = 0 \, m \,;  v = 5 \, m/s $
+
+b) $t = 0 \,s \, ; x_0 = 50 \, m \,;  v = -10 \, m/s $
+
+c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v = 5 \, m/s $
+
+---
+```
+---
+
+### Problema 2
 ```{admonition}  Movimiento Uniformemente Acelerado
 :class: important
-En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. Estimar la velocidad intantánea en $t = 2.0 \,s$ considerando un intervalo de tiempo pequeño.
+En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. Expresar las ecuaciones cienmáticas del movimiento.
+
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica01.png
 :alt: cinematica
@@ -15,7 +61,7 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 ```{admonition} Solución
 :class: dropdown hint
 
-1. **Deducimos la ecuación de la posición en función del tiempo**. En la figura se observa que la distancia recorrida aumenta en $10 \, m$  cada segundo, nota que en el primer segundo recorre $5 \, m$, luego $15 \, m$, $25 \, m$, $35 \, m$ y asi sucesivamente.  Se trata entonces de un movimiento rectilíneo uniformemente variado, donde la rapidez aumenta uniformemente en $10 \, m/s$ cada segundo, es decir, con aceleración $\vec{a} = + 10 \, m/s^2$. Por lo tanto la posición en función del tiempo es una función cuadrática, considerando los valores de la figura la ecuación de la posición esta dado por:
+1. **Deducimos la ecuación de la posición en función del tiempo**. En la figura se observa que la distancia recorrida aumenta en $10 \, m$  cada segundo, nota que en el primer segundo recorre $5 \, m$, luego: $15 \, m$, $25 \, m$, $35 \, m$ y asi sucesivamente.  Se trata de un movimiento rectilíneo uniformemente variado, donde la rapidez aumenta uniformemente en $10 \, m/s$ cada segundo, es decir, con aceleración constante $\vec{a} = + 10 \, m/s^2$. Por lo tanto la posición en función del tiempo es una función cuadrática, considerando los valores de la figura la ecuación de la posición esta dado por:
 
     $x = x_0 + \vec{v}_0 t + \frac{1}{2} \vec{a}t^2$
 
@@ -23,7 +69,7 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
     $x = 0 + \vec{v}_0 t + 5 t^2 $
 
-    Para dar con la velocidad inicial reemplazamos alguna posición de la figura, por ejemplo, para $t = 1.0 \,s$, $x = 5\, m$.
+    Para dar con la velocidad inicial reemplazamos alguna posición conocida en un instante dado, por ejemplo, para $t = 1.0 \,s$, $x = 5\, m$.
 
     $5 = \vec{v}_0 (1) + 5 (1)^2$
 
@@ -31,33 +77,44 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
     $\vec{v}_0 = 0$ 
 
-    Finalmente la posición en función del tiempo se expresa:
+    Finalmente, la posición en función del tiempo se expresa:
 
     $x = 5 t^2$
 
-2. **Estimamos la velocidad instantánea usando velocidad media**.  Consideramos un intervalo de tiempo pequeño, cercano a  $t = 2.0 \, s$, por ejemplo entre $t = 2.0 \, s$ y $t = 2.1 \, s$, donde las posiciones son:
+2. **Deducimos las ecuación de la velocidad en función del tiempo**. En un movimiento recitlineo uniformemente variado la velocidad es una función lineal del tiempo:
 
-    $ x_{(t = 2.0s)} = 5 (2.0)^2 = 20.00 \,m$
+    $\vec{v} = \vec{v}_0 + \vec{a}t$
 
-    $ x_{(t = 2.1s)} = 5 (2.1)^2 = 20.05 \,m$
+    Reemplazando, $v_0 = 0\, m/s$ y $\vec{a} = + 10 \, m/s^2$:
 
-    Entonces la velocidad instantánea en $t = 2.0 \, s$ es aproximadamente:
+    $\vec{v} = 10t$
 
-    $\vec{v} \approx \frac{ \Delta x }{ \Delta t} = \frac{20.05 - 20.00}{2.1 - 2.0}$
+3. ✨ **Sintésis:** La partícula hace un movimiento rectilíneo uniformemente variado, parte del reposo y la velocidad aumenta en $10 \, m/s$ cada segundo. Las ecuaciones cinemáticas son:
 
-    $\vec{v} \approx 20.5 \, m/s$
+    - $x = 5 t^2$
+
+    - $\vec{v} = 10t$
+
+    - $\vec{a} = +10$
 
 ---
-_✨ **Sintésis:** La partícula hace un movimiento rectilíneo uniformemente variado, parte del reposo y la velocidad aumenta en $10 \, m/s$ cada segundo. La velocidad instantánea en $t = 2.0 \, /s$ es aproximadamente, $20.5 \, m/s$, considerando que si la velocidad aumenta en  $10 \, m/s$ cada segundo,luego de dos segundo, la velocidad es $20 \, m/s$, es decir, la aproximación usando límites es buena con apenas un arror de $0.5 \, m/s$, si el calculo se hubiera realizado en un intervalo de tiempo más pequeño por ejemplo, entre $t = 2.0 \, s$ y $t = 2.01 \, s$, el error hubiera sido más pequeño._ 
- 
+**Hazlo Tú**, Expresa las ecuaciones cinemáticas de MRUV, tal que cumpla las siguientes condiciones:
+
+a) $t = 0 \,s \, ; x_0 = 0 \, m \,;  v_0 = 5 \, m/s \, ; \vec{a} = 2 \, m/s^2$
+
+b) $t = 0 \,s \, ; x_0 = 50 \, m \,;  v_0 = -10 \, m/s \, ; \vec{a} = -5 \, m/s^2$
+
+c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v_0 = 0.50 \, m/s \, ; \vec{a} = 0.24 \, m/s^2$
+
+---
 ```
 ---
-### Problema 2
+### Problema 3
 
 ```{admonition} Movimiento Uniformemente Retardado 
 :class: important
 
-En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. Calcular la distancia recorrida hasta el instante que se detiene. 
+En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. Expresar las ecuaciones cienmáticas del movimiento. 
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
 :alt: cinematica
@@ -85,7 +142,7 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
     Entonces la posicón en función del tiempo queda finalmente expresada:
     
-    $ x = 50 + 80t - 5 t^2 $
+    $x = 50 + 80t - 5 t^2$
 
 2. **Deducimos la ecuación de la velocidad en función del tiempo**. En el movimiento recvtilíneo uniformemente variado, la velocidad en función del tiempo es una función lineal. 
     
@@ -97,29 +154,28 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
     😮 _Esta ecuación tambien se puede deducir derivando la posición en función del tiempo_
 
-3. **Calculamos el instante en el que la partícula se detiene**. En la ecuación de la velocidad reemplazamos $\vec{v} = 0$:
+3. **Sintesis**. La partícula hace un movimiento rectilíneo uniformemente variado, parte con $\vec{v}_0 = 80 \, m/s$ y la velocidad disminuye en $10 \, m/s$ cada segundo. Las ecuaciones cinemáticas son:
 
-    $\vec{v} = 80 - 10t$
+    - $x = 50 + 80t - 5 t^2$
 
-    $0 = 80 - 10t$
+    - $\vec{v} = 80 - 10t$
 
-    $t = 8\,s$
+    - $\vec{a} = -10$
 
-4. **Calculamos la distancia recorrida**. Restamos las posiciones entre $t = 0\,s$ y $t = 8\,s$.
-
-    $ d = x_{(t = 8s)} - x_{(t = 0s)}$
-
-    $ d = [50 + 80(8) - 5(8)^2] - [50 + 80(0) - 5(0)^2]$
-
-    $ d = 320 \, m$
 ---
-_✨ **Sintésis:** La partícula hace un movimiento rectilíneo uniformemente variado, parte con $\vec{v}_0 = 80 \, m/s$ y la velocidad disminuye en $10 \, m/s$ cada segundo. Se detiene luego de $t = 8\,s$ en ese instante ha recorrido $ d = 320 \, m$._ 
+**Hazlo Tú**, Expresa las ecuaciones cinemáticas de MRUV retardado, tal que cumpla las siguientes condiciones:
+
+a) $t = 0 \,s \, ; x_0 = 0 \, m \,;  v_0 = +60 \, m/s \, ; \vec{a} = -4 \, m/s^2$
+
+b) $t = 0 \,s \, ; x_0 = 50 \, m \,;  v_0 = -54 \, m/s \, ; \vec{a} = +6 \, m/s^2$
+
+c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v_0 = +2.50 \, m/s \, ; \vec{a} = -0.08 \, m/s^2$
 
 ---
 ```
 --- 
 
-### Problema 3
+### Problema 4
 ```{admonition}  Movimiento con aceleración constante
 :class: important
 Una partícula se mueve en linea recta, de modo que su posición varia en función del tiempo de acuerdo a la siguiente ecuación $x = 40t + 2t^2$, donde $x$ esta en metros y $t$ en segundos. Deducir la ecuación de la velocidad y de la aceleración usando límites.
@@ -171,13 +227,13 @@ Una partícula se mueve en linea recta, de modo que su posición varia en funci�
     😮 _La aceleración es constante, entonces el movimiento es rectilíneo uniformemente variado_
 
 ---
-_✨ **Sintésis:** El cuerpo realzia un movimiento rectilíneo uniformemente variado, parte con una velocidad inicial de $\vec{v}(t) = 40 \, m/s$ y aumenta en $\vec{a} = 4 \, m/s$ cada segundo. La deducción de la velocidad y ala aceleración usando límites es un poco tediodoso, y puede ser reemplazado usando reglas de derivación. El resultado muestra que la velcoidad tiene una relación lineal con el tiempo, $\vec{v}(t) = 40 + 4t $ y la aceleración es constante $\vec{a} = 4 \, m/s^2 $._ 
+_✨ **Sintésis:** El cuerpo realiza un movimiento rectilíneo uniformemente variado, con una velocidad inicial de $\vec{v}(t) = 40 \, m/s$ y aceleración $\vec{a} = 4 \, m/s^2$. La deducción de la velocidad y la aceleración usando límites es un poco tediodosa y pueden ser deducidos usando reglas de derivación. 
 
 ---
 ```
 ---
 
-### Problema 4
+### Problema 5
 
 ```{admonition} Movimiento de caída libre 
 :class: important
@@ -223,7 +279,7 @@ Un cuerpo es lanzado verticalmente hacia arriba desde un acantilado de $20.0 \, 
     
     $y = y_0 + \vec{v}_0 (t - 1.5) + \frac{1}{2} \vec{a}(t-1.5)^2$
 
-    Donde la posición inicial es el punto más alto $y_0 = 33.5 \, m$ y además el cuerpo parte del reposo $\vec{v}_0 = 0$, con una aceleración $\vec{a} = -8.0 \, m/s^2$.
+    Donde la posición inicial es el punto más alto $y_0 = 33.5 \, m$ y en ese instante el cuerpo parte del reposo $\vec{v}_0 = 0$, con una aceleración $\vec{a} = -8.0 \, m/s^2$.
 
     $y = 33.5 -4(t-1.5)^2$
     
@@ -241,7 +297,7 @@ _✨ **Sintésis:** El cuerpo sube disminuyendo su rapidez en $12 \, m/s$ cada s
 ```
 
 ---
-### Problema 5
+### Problema 6
 
 ```{admonition} Movimiento de caída libre 
 :class: important
@@ -316,17 +372,24 @@ _✨ **Sintésis:** El bus realiza un MRUV acelerado, luego un MRU y termina con
 
 ## 💡 Ejercicios propuestos
 
-1. Dos trenes se mueven en direcciones opuestas por la misma vía. Los trenes parten simultáneamente de dos pueblos, $A$ y $B$, separados por una distancia $d$. Cada tren viaja uno hacia el otro con velocidad constante $v$. Una abeja se encuentra inicialmente delante del tren en $A$. Al salir el tren de $A$, la abeja viaja con una velocidad $u \lt v$ por la vía hacia $B$. Al encontrarse con el segundo tren, invierte instantáneamente su dirección hasta encontrarse con el primero, luego invierte de nuevo, etc. La abeja continúa volando entre los dos trenes hasta que es aplastada por el impacto. El propósito de este problema es calcular la distancia total recorrida por la abeja hasta ser aplastada. Considerar que la abeja es más rápida que los trenes. Hay al menos dos buenas maneras de resolver este problema. Una es calcular la distancia de cada tramo de vuelo y sumar la serie resultante. También hay otra manera de resolver el problema con muy pocos cálculos. Debes hacerlo de ambas maneras.
+1. En una carretera recta, un automóvil se desplaza con velocidad constante de $120 \, km/h$. En cierto instante, el automóvil pasa frente a una patrulla policial que se encuentra en reposo al costado de la vía. El conductor de la patrulla tarda $1.20 \, s$ en reaccionar antes de iniciar la persecución, A partir de ese momento, la patrulla parte desde el reposo y acelera con aceleración constante de $10  \, m/s^2$. Suponiendo que ambos vehículos se mueven en la misma dirección y en línea recta
+¿Cuánto tiempo después de que el automóvil pasa frente a la patrulla es alcanzado por el patrullero?
+
+2. En una carretera recta, dos vehículos se encuentran separados por una distancia de $500 \, m$. El Vehículo A parte del reposo y acelera con aceleración constante de 
+$4 \, m/s^2$, en dirección hacia el Vehículo B. Simultáneamente, el Vehículo B se mueve hacia el Vehículo A con velocidad constante de $ 20 \, m/s$. Ambos se desplazan en la misma línea recta y uno frente al otro. ¿En qué posición ocurre el encuentro, medida desde el punto de partida del Vehículo A?
+
+
+3. Dos trenes se mueven en direcciones opuestas por la misma vía. Los trenes parten simultáneamente de dos pueblos, $A$ y $B$, separados por una distancia $d$. Cada tren viaja uno hacia el otro con velocidad constante $v$. Una abeja se encuentra inicialmente delante del tren en $A$. Al salir el tren de $A$, la abeja viaja con una velocidad $u \lt v$ por la vía hacia $B$. Al encontrarse con el segundo tren, invierte instantáneamente su dirección hasta encontrarse con el primero, luego invierte de nuevo, etc. La abeja continúa volando entre los dos trenes hasta que es aplastada por el impacto. El propósito de este problema es calcular la distancia total recorrida por la abeja hasta ser aplastada. Considerar que la abeja es más rápida que los trenes. Hay al menos dos buenas maneras de resolver este problema. Una es calcular la distancia de cada tramo de vuelo y sumar la serie resultante. También hay otra manera de resolver el problema con muy pocos cálculos. Debes hacerlo de ambas maneras.
 
 - Encuentra una expresión para la distancia dn recorrida por la abeja después de su enésimo encuentro con un tren. Define $d_0$ como la distancia recorrida durante el primer vuelo desde $A$ hacia el tren cerca de $B$, $d_1$ como la distancia recorrida por la abeja durante el primer viaje desde el tren de B hasta el tren de $A$, etc. Suma la serie resultante para obtener la respuesta final.
 - Idea otra manera de obtener la misma respuesta con muy pocos cálculos.
 
-2. Describe el movimiento de un bus que se mueve en línea recta entre un paradero y otro, considera una situación concreta, por ejemplo el movimiento de un bus que va desde la cuadra 10 hasta la cuadra 20 de la Av. La Marina. Asigna valores numéricos razonables. Describe el movimiento usando tus propias palabras utilizando los conceptos de velocidad y aceleración. Describe el movimiento usando ecuaciones. Describe el movimiento usando gráficas $x \, vs \, t$; $v \, vs. \, t$; $a \, vs. \, t$.  
+4. Describe el movimiento de un bus que se mueve en línea recta entre un paradero y otro, considera una situación concreta, por ejemplo el movimiento de un bus que va desde la cuadra 10 hasta la cuadra 20 de la Av. La Marina. Asigna valores numéricos razonables. Describe el movimiento usando tus propias palabras utilizando los conceptos de velocidad y aceleración. Describe el movimiento usando ecuaciones. Describe el movimiento usando gráficas $x \, vs \, t$; $v \, vs. \, t$; $a \, vs. \, t$.  
 Exprese la ecuación de la posición en función del tiempo.
 Exprese la ecuación de la velocidad en función del tiempo.
 Grafique la posición en función del tiempo.
 
-3. Una partícula se mueve en linea recta tal que su posición es una función cúbica del tiempo, $x = 2(t -3)^3 + 54$. Analizar el movimiento y deducir el intervalo de tiempo cuando la rapidez de la particula aumenta o disminuye.
+5. Una partícula se mueve en linea recta tal que su posición es una función cúbica del tiempo, $x = 2(t -3)^3 + 54$. Analizar el movimiento y deducir el intervalo de tiempo cuando la rapidez de la particula aumenta o disminuye.
 
 ---
 
