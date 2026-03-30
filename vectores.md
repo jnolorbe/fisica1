@@ -1,5 +1,4 @@
 # Vectores
-
 ---
 ## 📌 Problemas Resueltos
 ### Problema 1
@@ -221,9 +220,8 @@ El desplazamiento logrado por la caja es $\Delta \vec{r} = (2.0 \hat{i} + 1.5 \h
 #### 5. Transferencia y Extensión
 * **Ingeniería Eléctrica:** El movimiento de transformadores de gran escala en subestaciones requiere la acción coordinada de múltiples cabrestantes o técnicos. Comprender cómo se suman estas fuerzas permite al supervisor garantizar que la fuerza neta sea suficiente para vencer la inercia y la fricción sin comprometer la integridad de los operarios.
 
----
 ```
-
+---
 ## 📓 Actividades para el Portafolio Digital
 
 Como futuro ingeniero de la FIEE, tu portafolio no es solo una colección de ejercicios, sino un registro de tu juicio crítico. Desarrolla los siguientes desafíos:

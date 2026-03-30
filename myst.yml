@@ -18,7 +18,7 @@ project:
     - file: intro.md
     - title: 1. Cantidades físicas
       children:
-        - file: cifrassignificativas.md
+        - file: redondeos.md
         - file: vectores.md
     - title: 2. Cinemática lineal
       children:
