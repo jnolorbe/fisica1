@@ -16,19 +16,18 @@ project:
   github: jnolorbe/fisica1
   toc:
     - file: intro.md
-    - title: 1. Cantidades físicas
+    - title: Unidad 1
       children:
-        - file: redondeos.md
-        - file: vectores.md
-    - title: 2. Cinemática lineal
+        - file: sesion1.md
+    - title: Unidad 2
       children:
         - file: cinematicalineal.md
         - file: graficascinematicas.md
-    - title: 3. Cinemática curvilinea
+    - title: Unidad 3
       children:
         - file: cinematicaparabolica.md
         #- file: graficascinematicas.md
-    - title: 4. Dinámica líneal
+    - title: Unidad 4
       children:
         - file: fuerzasconstantes.md
         

@@ -52,27 +52,29 @@ $V_2 = 750 \, \text{ml}$
 
 ```{admonition} Solución
 :class: dropdown hint
-1. **El error común:** Si sumas directamente en la calculadora obtienes $V_{total} = 1125 \, \text{ml}$. 
-   **¡Cuidado!** No todos esos dígitos son reales. El segundo recipiente ($V_2$) es menos preciso que el primero ($V_1$).
+**1. Marco Teórico e Hipótesis Inicial**
+* **Temática:** Adición de cantidades físicas y propagación de incertidumbre por posición decimal.
+* **Ruta de la solución:** Aplicar la regla de suma/resta: el resultado se limita por la medida con la posición decimal menos precisa (mayor incertidumbre absoluta).
+* **Predicción cualitativa:** El resultado final no puede ser más preciso que el dato de $750 \, \text{ml}$, donde el cero no es significativo.
 
-2. **Uso de Notación Científica para evaluar precisión:**
-   Para evitar confusiones con los ceros, expresamos las medidas de forma estándar. En $750 \, \text{ml}$, el cero final no es significativo (no hay punto decimal que lo garantice).
+**2. Resolución Técnica**
+* Expresamos en notación científica para visualizar la precisión real:
+    $$V_1 = 3.75 \times 10^2 \, \text{ml}$$
+    $$V_2 = 7.5 \times 10^2 \, \text{ml}$$
+* Suma aritmética: $(3.75 + 7.5) \times 10^2 = 11.25 \times 10^2 \, \text{ml}$.
+* **Redondeo Crítico:** Como $7.5 \times 10^2$ tiene solo un decimal en su mantisa, el resultado debe redondearse a un decimal.
+    **Resultado Final:** $11.3 \times 10^2 \, \text{ml}$ (equivalente a $1130 \, \text{ml}$).
 
-   - $V_1 = 3.75 \times 10^2 \, \text{ml}$ (Tiene 2 posiciones decimales en la potencia)
-   - $V_2 = 7.5 \times 10^2 \, \text{ml}$ (Tiene solo 1 posición decimal en la potencia)
+**3. Discusión Crítica (Semáforo de Ingeniería)**
+* 🔴 **Rojo (Limitaciones):** Se asume que el cero en $750$ es un marcador de posición y no una cifra medida. Si el instrumento garantizara exactitud en las unidades, el cálculo cambiaría.
+* 🟢 **Verde (Validación):** El resultado $1130 \, \text{ml}$ refleja la realidad de la medición; la "vaguedad" del segundo frasco domina el resultado.
+* 🔵 **Azul (Interpretación):** En el llenado de aceites dieléctricos, ignorar esta regla podría causar una lectura falsa de los niveles de seguridad en el tanque.
 
-3. **Operación y Regla de Suma/Resta:**
-   
-   $V_{total} = (3.75 + 7.5) \times 10^2 \, \text{ml} = 11.25 \times 10^2 \, \text{ml}$
+**4. Análisis de Sensibilidad ("¿Y si...?")**
+¿Qué pasaría si el segundo recipiente fuera digital y marcara $750.0 \, \text{ml}$? En ese caso, la medida tendría 4 C.S., y el resultado final sería exactamente $1125 \, \text{ml}$, ya que la precisión permitiría validar las unidades.
 
-   > _**Regla Crítica:** Al sumar o restar cantidades físicas, el resultado debe redondearse a la misma posición decimal que la medida con la menor cantidad de posiciones decimales (la menos precisa)._
-
-4. **Redondeo Final:**
-   Como $V_2$ solo tiene un decimal en su forma científica ($7.5$), el resultado debe tener un solo decimal.
-
-   - $V_{total} = 11.25 \times 10^2 \, \text{ml}$ (¡Incorrecto!)
-   - $V_{total} = 11.3 \times 10^2 \, \text{ml}$ (¡Correcto!)
-   - $V_{total} = 1130 \, \text{ml}$ (¡Correcto!)
+**5. Transferencia y Extensión**
+Este criterio es vital al calcular la masa total de una estructura de soporte (torres de alta tensión) donde se suman pesos de componentes medidos con distintas básculas.
 
 ✍️ **Hazlo Tú: Desafío de Precisión**
 
