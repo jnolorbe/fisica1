@@ -11,10 +11,12 @@ Cada situación problemática que encontrarás aquí sigue la **Estrategia de lo
 Para ir más allá de la memorización y el simple reemplazo de datos, abordaremos cada desafío bajo este esquema:
 
 ### 1. Marco Teórico e Hipótesis Inicial
-Antes de operar, identificamos las leyes físicas que gobiernan el sistema (Leyes de Newton, Conservación, etc.). Establecemos una **predicción cualitativa**: antes de usar la calculadora, debes saber qué esperar físicamente.
+**Temática**: Antes de operar, identificamos las leyes físicas que gobiernan el sistema (Leyes de Newton, Conservación, etc.). 
+**Ruta de solución**: Planter la ruta de la solución en palabaras.
+**Predicción cualitativa**: antes de usar la calculadora, debes saber qué esperar físicamente.
 
 ### 2. Resolución Técnica
-Es el despliegue de los principios físicos con rigor matemático. Aplicamos el **cálculo diferencial e integral** de forma precisa para resolver problemas de cinemática y dinámica.
+Es el despliegue de los principios físicos con rigor matemático. Aplicamos ecuaciones o formulas de forma precisa para resolver problemas de cinemática y dinámica.
 
 ### 3. Discusión Crítica (El Semáforo de Ingeniería)
 Evaluamos la "honestidad" de nuestro resultado:

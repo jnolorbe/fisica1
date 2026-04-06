@@ -19,9 +19,9 @@ project:
     - title: Unidad 1
       children:
         - file: sesion1.md
+        - file: cinematicalineal02.md
     - title: Unidad 2
       children:
-        - file: cinematicalineal.md
         - file: graficascinematicas.md
     - title: Unidad 3
       children:

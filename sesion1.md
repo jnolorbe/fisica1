@@ -1,6 +1,9 @@
 # Sesión 1. Cantidades Físicas
+
 ---
-## 1.1. Redondeos
+## 📌 I. Fundamento Teórico
+
+### 1.1. Redondeos
 Existen dos reglas principales para redondear un resultado, dependiendo del tipo de operación que estés realizando. ¡Es crucial no confundirlas!
 
 ```{admonition} 1. Para Suma y resta
@@ -31,9 +34,9 @@ Resultado final: $53 m^2$
 ```
 ---
 
-## 1.2. Vectores
+### 1.2. Vectores
 
-### 1. ¿Qué es un Vector? (Interpretación Física)
+**1. ¿Qué es un Vector? (Interpretación Física)**
 
 Un **vector** $\vec{A}$ es una herramienta matemática que representa una cantidad física que requiere de dirección y sentido para exresarse integramente, los vectores tienen las siguientes características:
 
@@ -42,7 +45,8 @@ Un **vector** $\vec{A}$ es una herramienta matemática que representa una cantid
 * **Sentido:** Indicado por la punta de la flecha.
 
 La **dirección y sentido de un vector** se expresa mediante **angulos directores** con respecto a un sistema de referencia.
-### 2. Componentes Rectangulares y Vectores Unitarios
+
+**2. Componentes Rectangulares y Vectores Unitarios**
 
 Para facilitar el cálculo analítico, descomponemos un vector en sus proyecciones ortogonales utilizando los vectores unitarios $\hat{i}$ y $\hat{j}$ en el plano cartesiano:
 
@@ -53,7 +57,7 @@ Donde las componentes se calculan como:
 * $A_y = A \sin(\theta)$
 * $|\vec{A}| = \sqrt{A_x^2 + A_y^2}$
 
-## 3. Operaciones Claves
+**3. Operaciones Claves**
 
 - **Suma:** $\sum \vec{F} = (F_{1x} + F_{2x})\hat{i} + (F_{1y} + F_{2y})\hat{j}$ 
 
@@ -62,7 +66,7 @@ Donde las componentes se calculan como:
 - **Producto Vectorial:** $\vec{A} \times \vec{B} = (AB \sin(\theta)) \hat{n}$
 ---
 
-## 📌 Problemas Resueltos
+## 📌 II. Problemas Resueltos
 
 ### 🧩 Problema 1:  Volumen total de un refrigerante
 
@@ -453,7 +457,7 @@ El desplazamiento logrado por la caja es $\Delta \vec{r} = (2.0 \hat{i} + 1.5 \h
 ```
 ---
 
-## 📓 Actividades para el Portafolio Digital
+## 📓 III. Actividades para el Portafolio Digital
 
 Como futuro ingeniero de la FIEE, tu portafolio no es solo una colección de ejercicios, sino un registro de tu juicio crítico. Desarrolla los siguientes desafíos:
 

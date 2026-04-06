@@ -1,6 +1,34 @@
-# Ecuaciones Cinemáticas
+# Sesión 2: Cinemática Lineal (MRU, MRUV y Caída Libre)
+
 ---
-## 📌 Problemas Resueltos
+
+## 📌 I. Fundamento Teórico
+
+La cinemática describe el movimiento sin atender a sus causas. En esta sesión, nos enfocamos en el cambio de posición respecto al tiempo en una dimensión.
+
+### 1. Movimiento Rectilíneo Uniforme (MRU)
+
+Velocidad: Constante ($\vec{v} = \text{const}$).
+
+Aceleración: Nula ($\vec{a} = 0$).
+
+Ecuación: $x(t) = x_0 + v \cdot t$
+
+### 2. Movimiento Rectilíneo Uniformemente Variado (MRUV)
+
+Aceleración: Constante ($\vec{a} = \text{const}$).
+
+Velocidad: Función lineal $v(t) = v_0 + a \cdot t$.
+
+Posición: Función cuadrática $x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$.
+
+### 3. Caída Libre Vertical (CLV)
+
+Caso especial de MRUV donde la aceleración es la gravedad ($g \approx 9.81 \, m/s^2$). Adoptamos el eje $+y$ hacia arriba, por lo tanto $\vec{a} = -g\hat{j}$.
+
+---
+
+## 📌 II. Problemas Resueltos
 
 ### Problema 1
 ```{admonition}  Movimiento Rectilíneo Uniforme
@@ -393,21 +421,6 @@ Grafique la posición en función del tiempo.
 
 ---
 
-## Practica Calificada 2
-
-1. En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta, la particula es frenada hasta detenerse. 
-
-- Matematizar la posición en función del tiempo.
-- Deducir la ecuación de la velocidad y de la aceleración usando límites. 
-- ¿Cuál es la distancia recorrida en el último segundo de su movimiento?
-
-```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
-:alt: cinematica
-:width: 100%
-:align: center
-```
----
-
 ## 📝 Práctica Calificada N° 1: Cantidades Físicas y Vectores
 
 🎯 Instrucciones Generales
@@ -464,3 +477,4 @@ Se solicita:
 - Determine la magnitud (módulo) de $\vec{R}$ y el ángulo $\theta$ que forma con el eje $+x$
 
 ---
+

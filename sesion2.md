@@ -1,4 +1,29 @@
-# Ecuaciones Cinemáticas
+# Sesión 2: Cinemática Lineal (MRU, MRUV y Caída Libre)
+
+## 📌 I. Fundamento Teórico
+
+La cinemática describe el movimiento sin atender a sus causas. En esta sesión, nos enfocamos en el cambio de posición respecto al tiempo en una dimensión.
+
+### 1. Movimiento Rectilíneo Uniforme (MRU)
+
+Velocidad: Constante ($\vec{v} = \text{const}$).
+
+Aceleración: Nula ($\vec{a} = 0$).
+
+Ecuación: $x(t) = x_0 + v \cdot t$
+
+### 2. Movimiento Rectilíneo Uniformemente Variado (MRUV)
+
+Aceleración: Constante ($\vec{a} = \text{const}$).
+
+Velocidad: Función lineal $v(t) = v_0 + a \cdot t$.
+
+Posición: Función cuadrática $x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$.
+
+### 3. Caída Libre Vertical (CLV)
+
+Caso especial de MRUV donde la aceleración es la gravedad ($g \approx 9.81 \, m/s^2$). Adoptamos el eje $+y$ hacia arriba, por lo tanto $\vec{a} = -g\hat{j}$.
+
 ---
 ## 📌 Problemas Resueltos
 
@@ -16,22 +41,29 @@ Una particula se mueve en linea recta con velocidad constante, tal que su posici
 
 ```{admonition} Solución
 :class: dropdown hint
+**1. Marco Teórico e Hipótesis Inicial**
+* **Temática:** Cinemática de la partícula en MRU.
+* **Ruta de solución:** Verificar si los desplazamientos son proporcionales al tiempo para confirmar MRU, calcular la pendiente ($v$) y la posición inicial ($x_0$).
+* **Predicción cualitativa:** Dado que $x$ aumenta de forma constante, esperamos una velocidad positiva y una aceleración nula.
 
-1. **Deducimos la ecuación de la posición en función del tiempo**. En la tabla se observa que el movil recorre distancias iguales en intervalos de tiempos iguales.  Se trata de un movimiento rectilíneo uniforme. En este caso, cada intervalo de tiempo de $0.10s$ recorre $0.05m$, su velocidad es constante $\vec{v} = 0.05m/0.10s = 0.50 \,m/s$. La posición en función del tiempo es una función lineal, considerando los valores de la tabla la ecuación de la posición esta dado por:
+**2. Resolución Técnica**
+* Cálculo de velocidad: $v = \frac{\Delta x}{\Delta t} = \frac{0.15 - 0.10}{0.10 - 0.00} = 0.50 \, m/s$.
+* Posición inicial: En $t=0$, $x_0 = 0.10 \, m$.
+* Ecuaciones finales:
+    * $x(t) = 0.10 + 0.50t$
+    * $v(t) = +0.50 \, m/s$
+    * $a(t) = 0$
 
-    $x = x_0 + \vec{v}t$
+**3. Discusión Crítica (El Semáforo de Ingeniería)**
+* 🔴 **Rojo:** Se asume que entre los puntos medidos la velocidad no varió (interpolación lineal), lo cual podría ocultar vibraciones pequeñas.
+* 🟢 **Verde:** El resultado coincide con la predicción: $v > 0$ y constante.
+* 🔵 **Azul:** Un móvil que recorre medio metro cada segundo es una rapidez moderada, consistente con un ensayo de laboratorio a pequeña escala.
 
-    Reemplazando, $x_0 = 0.10 \, m$ y $\vec{v} = + 0.50 \, m/s$:
+**4. Análisis de Sensibilidad ("¿Y si...?")**
+¿Qué pasaría si el dato en $t=0.40$ fuera $x=0.35$? El movimiento dejaría de ser MRU y pasaría a ser acelerado.
 
-    $x = 0.10 + 0.50 t$
-
-2. ✨ **Sintésis:** La partícula hace un movimiento rectilíneo uniforme, con velocidad $0.50 \, m/s$. Las ecuaciones cinemáticas son:
-
-    - $x = 0.10 + 0.50 t$
-
-    - $\vec{v} = +0.50$
-
-    - $\vec{a} = 0$
+**5. Transferencia y Extensión**
+Técnicamente, este modelo se aplica en la **calibración de cintas transportadoras industriales**. Si una faja en una planta de ensamblaje no mantiene esta linealidad exacta, los componentes llegarán a destiempo a las estaciones de soldadura robotizada, provocando fallas en la cadena de producción.
 
 ---
 **Hazlo Tú**, Expresa las ecuaciones cinemáticas del MRU, tal que cumpla las siguientes condiciones:
@@ -47,10 +79,9 @@ c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v = 5 \, m/s $
 ---
 
 ### Problema 2
-```{admonition}  Movimiento Uniformemente Acelerado
+```{admonition}  Prototipo de Vehículo Eléctrico
 :class: important
-En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta con aceleración constante. Expresar las ecuaciones cienmáticas del movimiento.
-
+Un equipo de estudiantes diseña un pequeño vehículo eléctrico para una competencia de eficiencia. Durante las pruebas de aceleración se usa un sensor ultrasónico para graficar la posición del prototipo partiendo del reposo. Deducir las ecuaciones del movimiento según los datos mostrados en la gráfica.
 
 ```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica01.png
 :alt: cinematica
@@ -61,9 +92,18 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 ```{admonition} Solución
 :class: dropdown hint
 
-1. **Deducimos la ecuación de la posición en función del tiempo**. En la figura se observa que la distancia recorrida aumenta en $10 \, m$  cada segundo, nota que en el primer segundo recorre $5 \, m$, luego: $15 \, m$, $25 \, m$, $35 \, m$ y asi sucesivamente.  Se trata de un movimiento rectilíneo uniformemente variado, donde la rapidez aumenta uniformemente en $10 \, m/s$ cada segundo, es decir, con aceleración constante $\vec{a} = + 10 \, m/s^2$. Por lo tanto la posición en función del tiempo es una función cuadrática, considerando los valores de la figura la ecuación de la posición esta dado por:
+**1. Marco Teórico e Hipótesis Inicial**
+* **Temática:** Movimiento Rectilíneo Uniformemente Variado (MRUV).
+* **Ruta de solución:** El incremento de la distancia de forma uniforme en cada segundo indica aceleración constante. 
+* **Predicción cualitativa:** Esperamos una aceleración positiva y una curva de velocidad que crezca linealmente con el tiempo.
 
-    $x = x_0 + \vec{v}_0 t + \frac{1}{2} \vec{a}t^2$
+**2. Resolución Técnica**
+* **Posición inicial:** Del gráfico, $x_0 = 0$.
+* **Ecuación de posición:** $x = x_0 + v_0 t + \frac{1}{2} a t^2$.
+* Para $t=1.0 \, s, x=5.0 \, m$ y partiendo del reposo ($v_0=0$):
+    * $5.0 = \frac{1}{2} a (1.0)^2 \implies a = 10.0 \, m/s^2$.
+
+$x = x_0 + \vec{v}_0 t + \frac{1}{2} \vec{a}t^2$
 
     Reemplazando, $x_0 = 0\, m$ y $\vec{a} = + 10 \, m/s^2$:
 
@@ -77,25 +117,21 @@ En la figura se muestra la posición en función del tiempo de una partícula qu
 
     $\vec{v}_0 = 0$ 
 
-    Finalmente, la posición en función del tiempo se expresa:
+* **Ecuaciones cinemáticas:**
+    * $x(t) = 5.0 t^2$
+    * $v(t) = 10.0 t$
+    * $a(t) = +10.0$
 
-    $x = 5 t^2$
+**3. Discusión Crítica (El Semáforo de Ingeniería)**
+* 🔴 **Rojo:** Es una idealización considerar $a$ constante; en la realidad, la fuerza contraelectromotriz del motor reduce la aceleración conforme aumenta la velocidad.
+* 🟢 **Verde:** La aceleración obtenida ($10 \, m/s^2$) es alta (casi $1g$), lo que indica un prototipo con un torque de arranque muy agresivo.
+* 🔵 **Azul:** Una velocidad de $10 \, m/s$ ($36 \, km/h$) al primer segundo es impresionante para un vehículo eléctrico a escala, similar a un auto de carreras de alto rendimiento.
 
-2. **Deducimos las ecuación de la velocidad en función del tiempo**. En un movimiento recitlineo uniformemente variado la velocidad es una función lineal del tiempo:
+**4. Análisis de Sensibilidad ("¿Y si...?")**
+¿Qué pasaría si el vehículo llevara una carga adicional (pasajero)? La aceleración $a$ disminuiría inversamente proporcional a la masa total, lo que aplanaría la parábola en la gráfica $x$ vs $t$.
 
-    $\vec{v} = \vec{v}_0 + \vec{a}t$
-
-    Reemplazando, $v_0 = 0\, m/s$ y $\vec{a} = + 10 \, m/s^2$:
-
-    $\vec{v} = 10t$
-
-3. ✨ **Sintésis:** La partícula hace un movimiento rectilíneo uniformemente variado, parte del reposo y la velocidad aumenta en $10 \, m/s$ cada segundo. Las ecuaciones cinemáticas son:
-
-    - $x = 5 t^2$
-
-    - $\vec{v} = 10t$
-
-    - $\vec{a} = +10$
+**5. Transferencia y Extensión**
+Este análisis permite dimensionar los **disyuntores y cables de alimentación**. Si el vehículo acelera muy rápido, el pico de corriente inicial podría fundir los cables si no se ha calculado correctamente la sección transversal ($mm^2$).
 
 ---
 **Hazlo Tú**, Expresa las ecuaciones cinemáticas de MRUV, tal que cumpla las siguientes condiciones:
@@ -105,9 +141,9 @@ a) $t = 0 \,s \, ; x_0 = 0 \, m \,;  v_0 = 5 \, m/s \, ; \vec{a} = 2 \, m/s^2$
 b) $t = 0 \,s \, ; x_0 = 50 \, m \,;  v_0 = -10 \, m/s \, ; \vec{a} = -5 \, m/s^2$
 
 c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v_0 = 0.50 \, m/s \, ; \vec{a} = 0.24 \, m/s^2$
-
 ---
 ```
+
 ---
 ### Problema 3
 
@@ -364,9 +400,41 @@ _✨ **Sintésis:** El bus realiza un MRUV acelerado, luego un MRU y termina con
 
     _El movimiento completo dura $ 54\,s$_
 ---
-
 ```
 
+---
+
+### Problema 7
+
+```{admonition} Movimiento de caída libre 
+:class: important
+ Un cuerpo es lanzado hacia arriba ($v_0 = 18.0 \, m/s$) desde $y_0 = 20.0 \, m$. La fricción genera $a_{subida} = -12.0 \, m/s^2$ y $a_{bajada} = -8.0 \, m/s^2$. ¿Cuánto tiempo tarda en llegar al suelo?```
+
+```{admonition} Solución
+:class: dropdown hint
+
+**1. Marco Teórico e Hipótesis Inicial**
+* **Temática:** MRUV por tramos con aceleración variable según el sentido del movimiento.
+* **Ruta de solución:** Calcular el tiempo de subida hasta detenerse, la altura máxima alcanzada y luego el tiempo de bajada desde el reposo hasta el nivel del suelo ($y=0$).
+* **Predicción cualitativa:** Debido a que la aceleración de frenado en la subida ($|12|$) es mayor que la de aceleración en la bajada ($|8|$), el tiempo de subida será menor que el de bajada.
+
+**2. Resolución Técnica**
+* **Subida:** $v = 18.0 - 12.0t_s = 0 \implies t_s = 1.50 \, s$.
+* Altura alcanzada: $y_{max} = 20.0 + 18.0(1.5) - \frac{1}{2}(12)(1.5)^2 = 33.5 \, m$.
+* **Bajada:** Parte del reposo desde $y=33.5$. $0 = 33.5 + 0 - \frac{1}{2}(8)t_b^2 \implies t_b = \sqrt{33.5/4} \approx 2.89 \, s$.
+* **Tiempo total:** $t_{total} = 1.50 + 2.89 = 4.39 \, s$.
+
+**3. Discusión Crítica (El Semáforo de Ingeniería)**
+* 🔴 **Rojo:** Hemos modelado la resistencia del aire como una aceleración constante, cuando en la realidad técnica depende de la velocidad ($F_d \propto v^2$), lo que requeriría cálculo integral.
+* 🟢 **Verde:** Se valida la predicción: $t_s (1.5) < t_b (2.89)$. El cuerpo "sufre" más resistencia para subir que la que recibe de ayuda para caer.
+* 🔵 **Azul:** El tiempo total ($4.39 \, s$) es razonable para una altura de $33 \, m$ bajo efectos disipativos.
+
+**4. Análisis de Sensibilidad ("¿Y si...?")**
+¿Qué sucede si la fricción fuera nula? En ese caso $a = -9.81$ en ambos tramos. El tiempo de subida aumentaría ligeramente y el de bajada disminuiría, recuperando la simetría del movimiento.
+
+**5. Transferencia y Extensión**
+Esta situación se presenta en el **diseño de sistemas de frenado de emergencia para ascensores de alta velocidad**. Los ingenieros deben calcular cómo la fricción mecánica (frenos de zapata) desacelera la cabina para evitar que el impacto contra los amortiguadores de la fosa exceda los límites de seguridad humana.
+```
 ---
 
 
@@ -464,3 +532,19 @@ Se solicita:
 - Determine la magnitud (módulo) de $\vec{R}$ y el ángulo $\theta$ que forma con el eje $+x$
 
 ---
+
+## Practica Calificada 2
+
+1. En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta, la particula es frenada hasta detenerse. 
+
+- Matematizar la posición en función del tiempo.
+- Deducir la ecuación de la velocidad y de la aceleración usando límites. 
+- ¿Cuál es la distancia recorrida en el último segundo de su movimiento?
+
+```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
+:alt: cinematica
+:width: 100%
+:align: center
+```
+---
+
