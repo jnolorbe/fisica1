@@ -19,7 +19,8 @@ project:
     - title: Unidad 1
       children:
         - file: sesion1.md
-        - file: cinematicalineal02.md
+        - file: sesion2.md
+        - file: sesion3.md
     - title: Unidad 2
       children:
         - file: graficascinematicas.md

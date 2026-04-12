@@ -1,4 +1,6 @@
-# Sesión 2: Cinemática Lineal (MRU, MRUV y Caída Libre)
+# Sesión 2: Movimiento Rectilíneo I 
+
+## MRU, MRUV y Caída Libre
 
 ## 📌 I. Fundamento Teórico
 
@@ -25,9 +27,9 @@ Posición: Función cuadrática $x(t) = x_0 + v_0 t + \frac{1}{2} a t^2$.
 Caso especial de MRUV donde la aceleración es la gravedad ($g \approx 9.81 \, m/s^2$). Adoptamos el eje $+y$ hacia arriba, por lo tanto $\vec{a} = -g\hat{j}$.
 
 ---
-## 📌 Problemas Resueltos
+## 📌 II. Problemas Resueltos
 
-### Problema 1
+### 🧩 Problema 1
 ```{admonition}  Movimiento Rectilíneo Uniforme
 :class: important
 Una particula se mueve en linea recta con velocidad constante, tal que su posición en función del tiempo es regsitrado en la tabla mostrada, deducir las ecuaciones cinemáticas del movimiento.
@@ -78,7 +80,7 @@ c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v = 5 \, m/s $
 ```
 ---
 
-### Problema 2
+### 🧩 Problema 2
 ```{admonition}  Prototipo de Vehículo Eléctrico
 :class: important
 Un equipo de estudiantes diseña un pequeño vehículo eléctrico para una competencia de eficiencia. Durante las pruebas de aceleración se usa un sensor ultrasónico para graficar la posición del prototipo partiendo del reposo. Deducir las ecuaciones del movimiento según los datos mostrados en la gráfica.
@@ -145,7 +147,7 @@ c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v_0 = 0.50 \, m/s \, ; \vec{a} = 0.24 \, 
 ```
 
 ---
-### Problema 3
+### 🧩 Problema 3
 
 ```{admonition} Movimiento Uniformemente Retardado 
 :class: important
@@ -211,7 +213,7 @@ c) $t = 0 \,s \, ; x_0 = -10 \, m \,;  v_0 = +2.50 \, m/s \, ; \vec{a} = -0.08 \
 ```
 --- 
 
-### Problema 4
+### 🧩 Problema 4
 ```{admonition}  Movimiento con aceleración constante
 :class: important
 Una partícula se mueve en linea recta, de modo que su posición varia en función del tiempo de acuerdo a la siguiente ecuación $x = 40t + 2t^2$, donde $x$ esta en metros y $t$ en segundos. Deducir la ecuación de la velocidad y de la aceleración usando límites.
@@ -269,7 +271,7 @@ _✨ **Sintésis:** El cuerpo realiza un movimiento rectilíneo uniformemente va
 ```
 ---
 
-### Problema 5
+### 🧩 Problema 5
 
 ```{admonition} Movimiento de caída libre 
 :class: important
@@ -333,7 +335,7 @@ _✨ **Sintésis:** El cuerpo sube disminuyendo su rapidez en $12 \, m/s$ cada s
 ```
 
 ---
-### Problema 6
+### 🧩 Problema 6
 
 ```{admonition} Movimiento de caída libre 
 :class: important
@@ -404,7 +406,7 @@ _✨ **Sintésis:** El bus realiza un MRUV acelerado, luego un MRU y termina con
 
 ---
 
-### Problema 7
+### 🧩 Problema 7
 
 ```{admonition} Movimiento de caída libre 
 :class: important
@@ -436,45 +438,69 @@ _✨ **Sintésis:** El bus realiza un MRUV acelerado, luego un MRU y termina con
 Esta situación se presenta en el **diseño de sistemas de frenado de emergencia para ascensores de alta velocidad**. Los ingenieros deben calcular cómo la fricción mecánica (frenos de zapata) desacelera la cabina para evitar que el impacto contra los amortiguadores de la fosa exceda los límites de seguridad humana.
 ```
 ---
+## 📓 III. Actividades para el Portafolio Digital
 
+Desarrolla los siguientes 10 desafíos siguiendo el **Formato de 5-Bloques** (Marco Teórico, Resolución, Discusión Crítica de Semáforo, Análisis de Sensibilidad y Transferencia). Para el Portafolio digital solo presenta 4 Desafios.
 
-## 💡 Ejercicios propuestos
+**Desafío 1: El Sistema de Intercepción Policial (Análisis de Latencia)**
+Un automóvil viaja a $120 \, \text{km/h}$ constantes. Al pasar frente a una patrulla en reposo, esta tarda $1.20 \, \text{s}$ en reaccionar (latencia) antes de acelerar a $10 \, \text{m/s}^2$.
+* **El Reto:** Determina el tiempo total y la distancia desde la patrulla hasta el punto de alcance.
+* **Interpretación FIEE:** En sistemas de control, el tiempo de reacción se denomina "tiempo de muerto". ¿Cómo afectaría la seguridad si la latencia del sistema electrónico de la patrulla subiera a $2.5 \, \text{s}$? Calcula el incremento en la distancia de persecución.
 
-1. En una carretera recta, un automóvil se desplaza con velocidad constante de $120 \, km/h$. En cierto instante, el automóvil pasa frente a una patrulla policial que se encuentra en reposo al costado de la vía. El conductor de la patrulla tarda $1.20 \, s$ en reaccionar antes de iniciar la persecución, A partir de ese momento, la patrulla parte desde el reposo y acelera con aceleración constante de $10  \, m/s^2$. Suponiendo que ambos vehículos se mueven en la misma dirección y en línea recta
-¿Cuánto tiempo después de que el automóvil pasa frente a la patrulla es alcanzado por el patrullero?
+**Desafío 2: Prevención de Colisiones en Vehículos Autónomos (Evaluación)**
+Dos vehículos están separados por $500 \, \text{m}$. El Vehículo A acelera desde el reposo a $4 \, \text{m/s}^2$ hacia B, mientras B se acerca a $20 \, \text{m/s}$ constantes.
+* **El Reto:** Encuentra la posición de encuentro medida desde el punto de partida de A.
+* **Toma de Decisión:** Si ambos fueran prototipos diseñados en la facultad, ¿a qué distancia mínima deberían detectarse para evitar el impacto si ambos tienen una capacidad de frenado máxima de $8 \, \text{m/s}^2$?
 
-2. En una carretera recta, dos vehículos se encuentran separados por una distancia de $500 \, m$. El Vehículo A parte del reposo y acelera con aceleración constante de 
-$4 \, m/s^2$, en dirección hacia el Vehículo B. Simultáneamente, el Vehículo B se mueve hacia el Vehículo A con velocidad constante de $ 20 \, m/s$. Ambos se desplazan en la misma línea recta y uno frente al otro. ¿En qué posición ocurre el encuentro, medida desde el punto de partida del Vehículo A?
+**Desafío 3: Optimización Algorítmica: La Abeja y los Trenes (Abstracción)**
+Dos trenes a velocidad $v$ se acercan desde una distancia $d$. Una abeja vuela entre ellos a $u > v$ hasta el impacto, invirtiendo su dirección instantáneamente en cada encuentro.
+* **El Reto:** Calcula la distancia total recorrida por dos métodos: 1) Sumatoria de series infinitas y 2) Método del tiempo de vuelo.
+* **Reflexión:** ¿Por qué para un ingeniero es vital buscar la "solución elegante" antes de recurrir a la fuerza bruta de cálculos infinitos?
 
+**Desafío 4: Movimiento Eficiente en la Av. La Marina (Diseño)**
+Modela un bus eléctrico que viaja de la cuadra 10 a la 20 de la Av. La Marina.
+* **El Reto:** Asigna distancias reales y paraderos. Describe el movimiento usando ecuaciones y gráficas $x, v, a$ vs. $t$.
+* **Vínculo Eléctrica:** Diseña un perfil de aceleración que minimice los picos de corriente en el arranque del motor eléctrico, justificando el uso de un movimiento suave frente a arranques bruscos.
 
-3. Dos trenes se mueven en direcciones opuestas por la misma vía. Los trenes parten simultáneamente de dos pueblos, $A$ y $B$, separados por una distancia $d$. Cada tren viaja uno hacia el otro con velocidad constante $v$. Una abeja se encuentra inicialmente delante del tren en $A$. Al salir el tren de $A$, la abeja viaja con una velocidad $u \lt v$ por la vía hacia $B$. Al encontrarse con el segundo tren, invierte instantáneamente su dirección hasta encontrarse con el primero, luego invierte de nuevo, etc. La abeja continúa volando entre los dos trenes hasta que es aplastada por el impacto. El propósito de este problema es calcular la distancia total recorrida por la abeja hasta ser aplastada. Considerar que la abeja es más rápida que los trenes. Hay al menos dos buenas maneras de resolver este problema. Una es calcular la distancia de cada tramo de vuelo y sumar la serie resultante. También hay otra manera de resolver el problema con muy pocos cálculos. Debes hacerlo de ambas maneras.
+**Desafío 5: El Actuador de Precisión (Interpretación de Funciones)**
+La posición de una partícula es $x(t) = 2(t - 3)^2 + 54$.
+* **El Reto:** Deduce la velocidad y aceleración en función del tiempo.
+* **Analiza:** La velocidad en función de la posición.
 
-- Encuentra una expresión para la distancia dn recorrida por la abeja después de su enésimo encuentro con un tren. Define $d_0$ como la distancia recorrida durante el primer vuelo desde $A$ hacia el tren cerca de $B$, $d_1$ como la distancia recorrida por la abeja durante el primer viaje desde el tren de B hasta el tren de $A$, etc. Suma la serie resultante para obtener la respuesta final.
-- Idea otra manera de obtener la misma respuesta con muy pocos cálculos.
+**Desafío 6: Diagnóstico por Gráficas (Análisis de Sensores)**
+Basándote en la gráfica de posición vs. tiempo proporcionada (donde la partícula frena hasta detenerse):
+* **El Reto:** Matematiza la función $x(t)$, deduce $v$ y $a$ mediante límites y halla la distancia en el último segundo.
+* **Juicio Crítico:** Si la gráfica muestra una "cola" larga antes de detenerse, ¿qué nos dice esto sobre la eficiencia del sistema de frenado electromagnético?
 
-4. Describe el movimiento de un bus que se mueve en línea recta entre un paradero y otro, considera una situación concreta, por ejemplo el movimiento de un bus que va desde la cuadra 10 hasta la cuadra 20 de la Av. La Marina. Asigna valores numéricos razonables. Describe el movimiento usando tus propias palabras utilizando los conceptos de velocidad y aceleración. Describe el movimiento usando ecuaciones. Describe el movimiento usando gráficas $x \, vs \, t$; $v \, vs. \, t$; $a \, vs. \, t$.  
-Exprese la ecuación de la posición en función del tiempo.
-Exprese la ecuación de la velocidad en función del tiempo.
-Grafique la posición en función del tiempo.
+**Desafío 7: Sincronización de Relés de Protección (Análisis)**
+Dos señales de falla en una red eléctrica viajan hacia un centro de control. La señal A viaja a $v_A$, mientras que la señal B viaja a $v_B$ sale con un retardo $t_0$.
+* **El Reto:** Determina la relación entre las velocidades para que lleguen simultáneamente.
+* **Contexto FIEE:** En la protección de sistemas de potencia, una falta de sincronización de microsegundos puede causar un "disparo en falso". ¿Cómo garantiza un ingeniero la simultaneidad en cables de distinta longitud?
 
-5. Una partícula se mueve en linea recta tal que su posición es una función cúbica del tiempo, $x = 2(t -3)^3 + 54$. Analizar el movimiento y deducir el intervalo de tiempo cuando la rapidez de la particula aumenta o disminuye.
+**Desafío 8: El Disyuntor de Vacío (Diseño de Contactos)**
+Un actuador debe cerrar contactos recorriendo $20 \, \text{mm}$ en solo $50 \, \text{ms}$, partiendo del reposo con aceleración constante.
+* **El Reto:** Calcula la aceleración y la velocidad de impacto final.
+* **Toma de Decisión:** Si el impacto supera los $1.2 \, \text{m/s}$, los contactos rebotan produciendo un arco eléctrico dañino. ¿Es viable tu diseño o requiere un sistema de amortiguación al final?
+
+**Desafío 9: Haz de Electrones en Semiconductores (Evaluación)**
+Un electrón en un tubo de vacío pasa de $2 \times 10^6 \, \text{m/s}$ a $8 \times 10^6 \, \text{m/s}$ en una distancia de $0.05 \, \text{m}$.
+* **El Reto:** Determina la aceleración y el tiempo de tránsito.
+* **Análisis Profesional:** Compara esta aceleración con la gravedad ($g$). Justifica por qué en microelectrónica la fuerza gravitatoria es despreciable frente a las fuerzas eléctricas de aceleración.
+
+**Desafío 10: Optimización de la Cadena de Suministro Automática (Análisis y Evaluación)**
+Un montacargas autónomo en un almacén de la FIEE debe trasladar una bobina de alta tensión entre dos puntos de control separados por una distancia total $D = 150 \, \text{m}$ en línea recta. El dispositivo debe operar bajo las siguientes restricciones de diseño y seguridad:
+
+* **Aceleración máxima (arranque):** $a = 1.5 \, \text{m/s}^2$
+* **Velocidad máxima de seguridad:** $v_{max} = 6 \, \text{m/s}$
+* **Desaceleración máxima (frenado):** $a_d = -2 \, \text{m/s}^2$
+
+**El Reto:**
+1.  **Modelado:** Determina si el montacargas logra alcanzar su velocidad máxima de seguridad ($v_{max}$) antes de que el sistema de control deba iniciar el frenado para detenerse exactamente en el destino.
+2.  **Cálculo Óptimo:** Calcula el **tiempo mínimo posible** en el que el montacargas puede completar el recorrido cumpliendo con todas las restricciones.
+3.  **Representación:** Grafica el perfil de velocidad $v$ vs. $t$ para este movimiento (identifica si el perfil es triangular o trapezoidal).
 
 ---
 
-## Practica Calificada 2
-
-1. En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta, la particula es frenada hasta detenerse. 
-
-- Matematizar la posición en función del tiempo.
-- Deducir la ecuación de la velocidad y de la aceleración usando límites. 
-- ¿Cuál es la distancia recorrida en el último segundo de su movimiento?
-
-```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
-:alt: cinematica
-:width: 100%
-:align: center
-```
----
 
 ## 📝 Práctica Calificada N° 1: Cantidades Físicas y Vectores
 
@@ -532,19 +558,3 @@ Se solicita:
 - Determine la magnitud (módulo) de $\vec{R}$ y el ángulo $\theta$ que forma con el eje $+x$
 
 ---
-
-## Practica Calificada 2
-
-1. En la figura se muestra la posición en función del tiempo de una partícula que se mueve en línea recta, la particula es frenada hasta detenerse. 
-
-- Matematizar la posición en función del tiempo.
-- Deducir la ecuación de la velocidad y de la aceleración usando límites. 
-- ¿Cuál es la distancia recorrida en el último segundo de su movimiento?
-
-```{figure} https://github.com/jnolorbe/fisica1/blob/main/figuras/cinematica02.png
-:alt: cinematica
-:width: 100%
-:align: center
-```
----
-
