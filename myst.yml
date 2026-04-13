@@ -23,14 +23,13 @@ project:
         - file: sesion3.md
     - title: Unidad 2
       children:
-        - file: graficascinematicas.md
+        - file: sesion5.md
     - title: Unidad 3
       children:
-        - file: cinematicaparabolica.md
-        #- file: graficascinematicas.md
+        - file: sesion9.md
     - title: Unidad 4
       children:
-        - file: fuerzasconstantes.md
+        - file: sesion13.md
         
 site:
   template: book-theme

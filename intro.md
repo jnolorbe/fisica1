@@ -10,15 +10,14 @@ Cada situación problemática que encontrarás aquí sigue la **Estrategia de lo
 
 Para ir más allá de la memorización y el simple reemplazo de datos, abordaremos cada desafío bajo este esquema:
 
-### 1. Marco Teórico e Hipótesis Inicial
-**Temática**: Antes de operar, identificamos las leyes físicas que gobiernan el sistema (Leyes de Newton, Conservación, etc.). 
+### 1. Planteamiento
 **Ruta de solución**: Planter la ruta de la solución en palabaras.
 **Predicción cualitativa**: antes de usar la calculadora, debes saber qué esperar físicamente.
 
 ### 2. Resolución Técnica
 Es el despliegue de los principios físicos con rigor matemático. Aplicamos ecuaciones o formulas de forma precisa para resolver problemas de cinemática y dinámica.
 
-### 3. Discusión Crítica (El Semáforo de Ingeniería)
+### 3. Discusión Crítica 
 Evaluamos la "honestidad" de nuestro resultado:
 * 🔴 **Rojo (Limitaciones):** Identificamos qué hemos simplificado o idealizado. Todo modelo tiene un límite de validez.
 * 🟢 **Verde (Validación):** Contrastamos el resultado con la predicción cualitativa inicial. ¿Existe diferencia con el resultado predicho? ¿El resultado contradice el sentido común?
@@ -48,7 +47,7 @@ Para garantizar tu aprendizaje, sigue este flujo de trabajo en cada sesión:
 
 ---
 
-## 🗓️ **Contenido Temático (Semestre 2026-A)**
+## 🗓️ **Contenido Temático**
 
 ### **Unidad I: Cantidades Físicas y Cinemática**
 * **Sesión 1:** Cantidades físicas y Vectores (Cifras significativas y operaciones vectoriales).
@@ -75,5 +74,7 @@ Para garantizar tu aprendizaje, sigue este flujo de trabajo en cada sesión:
 * **Sesión 16:** REPASO II.
 ---
 **Docente:** Juan Neil Mendoza Nolorbe
+
 Uiversidad Nacional del Callao
-Universidad Nacional Mayo de San Marcos 
+
+Universidad Nacional Mayor de San Marcos 
