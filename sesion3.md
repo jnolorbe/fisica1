@@ -34,23 +34,36 @@ $$x(t) = x_0 + \int_{0}^{t} v(t) dt$$
 ## 🚀 II. Problemas Resueltos
 
 
-### 🧩 Problema N° 1: El Carrete Lineal 
+### 🧩 Problema N° 1: Riel de impresora 
 ```{admonition} Análisis de Rapidez
 :class: important
-**Situación:** Un carrete lineal se mueve de un lado a otro según $x(t) = t^3 - 6t^2 + 9t$. El carrete siempre es impulsado al inicio con una velocidad inicial, se desplaza hacia la derecha y luego regresa a su punto de partida. Analizar los tramos en los que la partícula aumenta o disminuye su rapidez.
+**Situación:** Un riel lineal se mueve de un lado a otro según $x(t) = t^3 - 6t^2 + 9t$. El riel es impulsado al inicio con una velocidad inicial, se desplaza hacia la derecha y luego regresa a su punto de partida. Analizar los tramos en los que el riel aumenta o disminuye su rapidez.
+
+```{figure}  https://github.com/jnolorbe/fisica1/blob/main/figuras/s3_fig1.jpg
+:width: 80%
+:align: center
 ```
 
 ```{admonition} Solución
 :class: dropdown hint
-**1. Marco Teórico e Hipótesis Inicial:**
-* **Ruta de la solución:** Hallar $v(t)$ y $a(t)$. La rapidez aumenta si $v \cdot a > 0$ y disminuye si $v \cdot a < 0$.
-* **Predicción cualitativa:** Al ser impulsado, iniciará frenando hasta cambiar de sentido.
+**1. Planteamiento:**
+* **Ruta de la solución:** Hallar la velocidad $v(t)$ y aceleración $a(t)$. La rapidez disminuye si la velocidad y la aceleración tienen signos opuestos, y aumenta cuando cuando tienen signos iguales.
+* **Predicción cualitativa:** Al moverse de un lado a otro, el riel se detiene antes de invertir su movimiento.
 
 **2. Resolución Técnica:**
-* **Velocidad:** $v(t) = 3t^2 - 12t + 9 = 3(t - 1)(t - 3)$. Ceros en $t=1$ y $t=3$.
-* **Aceleración:** $a(t) = 6t - 12 = 6(t - 2)$. Cero en $t=2$.
+* **Velocidad:** 
 
-**Análisis de Rapidez ($v \cdot a$):**
+$v(t) = \frac{dx}{dt} =\frac{d}{dt}(t^3 - 6t^2 + 9t)$
+
+$v(t) = 3t^2 - 12t + 9 = 3(t - 1)(t - 3)$. Ceros en $t=1$ y $t=3$.
+
+* **Aceleración:** 
+
+$a(t) = \frac{dv}{dt} =\frac{d}{dt}(3t^2 - 12t + 9)$
+
+$a(t) = 6t - 12 = 6(t - 2)$. Cero en $t=2$.
+
+**Análisis de Rapidez:**
   * $t \in (0, 1)$: $v(+)$ y $a(-)$. El carrete avanza a la derecha y frena.
   * $t \in (1, 2)$: $v(-)$ y $a(-)$. El carrete regresa moviendose a la izquierda mientras gana rapidez.
   * $t \in (2, 3)$: $v(-)$ y $a(+)$. El carrete continua hacia la izquierda hasta detenerse.
@@ -61,24 +74,27 @@ $$x(t) = x_0 + \int_{0}^{t} v(t) dt$$
 * 🔵 **Azul:** El instante $t=2$ es el punto de máxima velocidad de retorno.
 
 **4. Análisis de Sensibilidad:**
-Si el término cúbico fuera mayor, el carrete alcanzaría el punto de retorno mucho antes.
+Si el término cúbico fuera mayor, el riel alcanzaría el punto de retorno mucho antes.
 
 **5. Transferencia y Extensión:**
 Este análisis es vital en el diseño de **actuadores lineales cíclicos**. El ingeniero debe asegurar que el frenado ocurra antes de llegar a los límites físicos para evitar el desgaste por impacto en los topes mecánicos.
 ```
 ---
 
-### 🧩 Problema N° 2: El Sensor de Escaneado 
+### 🧩 Problema N° 2: Cabezal de corte láser 
 ```{admonition} Función Exponencial
 :class: important
-**Situación:** Un cabezal de escaneo láser para inspección de paneles solares se desplaza según $x(t) = 10(1 - e^{-2t}) \, \text{m}$. Deducir la velocidad y aceleración cuando el tiempo es muy grande ($t \to \infty$).
+**Situación:** Un cabezal de corte láser es impulsado y su posición varía en función del tiempo según $x(t) = 10(1 - e^{-2t}) \, \text{m}$. Deducir la velocidad y aceleración cuando el tiempo es muy grande ($t \to \infty$).
+
+```{figure}  https://github.com/jnolorbe/fisica1/blob/main/figuras/s3_fig2.jpg
+:width: 60%
+:align: center
 ```
 
 ```{admonition} Solución
 :class: dropdown hint
 
 **1. Marco Teórico e Hipótesis Inicial:**
-* **Temática:** Cinemática de funciones trascendentes.
 * **Ruta de la solución:** Derivación sucesiva y aplicación de límites.
 * **Predicción cualitativa:** El cabezal debe frenar suavemente hasta detenerse en una posición límite.
 
@@ -100,16 +116,21 @@ Este movimiento modela la **respuesta transitoria de un motor de corriente conti
 ```
 ---
 
-### 🧩 Problema N° 3: Aceleración por Fuerza Magnética 
+### 🧩 Problema N° 3: Acelerador magnético 
 ```{admonition} Aceleración en función de la velocidad $a(v)$
 :class: important
-**Situación:** Una partícula cargada en reposo en un acelerador lineal experimenta una fuerza que lo acelera $a = 4\sqrt{v} \, \text{m/s}^2$. Deducir su velocidad en función del tiempo si parte del reposo.
+**Situación:** Un proyectil es disparado por un acelerador lineal que lo acelera $a = 4\sqrt{v} \, \text{m/s}^2$. Deducir su velocidad en función del tiempo si parte del reposo.
+
+```{figure}  https://github.com/jnolorbe/fisica1/blob/main/figuras/s3_fig3.jpg
+:width: 60%
+:align: center
+Ver video: https://youtu.be/iyv9GhaITNE?si=ZLNyMt5PJxno4zUN
 ```
+
 ```{admonition} Solución
 :class: dropdown hint
 
-**1. Marco Teórico e Hipótesis Inicial:**
-* **Temática:** Integración por separación de variables.
+**1. Planteamiento:**
 * **Ruta de la solución:** Sustituir $a = dv/dt$ y agrupar términos de velocidad.
 * **Predicción:** La velocidad aumentará más rápido que en un movimiento rectilíneo uniformemente variado (MRUV).
 
@@ -119,10 +140,10 @@ $\frac{dv}{dt} = 4v^{1/2} \implies \int_{0}^{v} v^{-1/2} dv = \int_{0}^{t} 4 dt$
 
 $2\sqrt{v} = 4t \implies v(t) = 4t^2 \, \text{m/s}$
 
-**3. Discusión Crítica (Semáforo):**
+**3. Discusión Crítica:**
 * 🔴 **Rojo:** El modelo falla en $t=0$ si no hay una perturbación inicial: la velocidad y aceleración serían cero. Se requeriría una mínima velocidad inicial o perturbación para arrancar el movimiento.
 * 🟢 **Verde:** Representa sistemas en los que conforme el cuerpo gana velocidad, retroalimenta positivamente la aceleración.
-* 🔵 **Azul:** La aceleración resultante $a(t) = 8t$ indica que la fuerza requerida crece linealmente con el tiempo.
+* 🔵 **Azul:** La aceleración resultante $a(t) = 8t$ indica que crece linealmente con el tiempo.
 
 **4. Análisis de Sensibilidad:**
 Una aceleración $a = 0.2\sqrt{v} \, \text{m/s}^2$ tiene una retroalimentación más suave, es decir el incremento de la acelración se hace cada vez con un menor ritmo.
@@ -134,7 +155,7 @@ Este modelo es fundamental para entender el movimiento lineal producido por **mo
 
 ## 📓 III. Actividades para el Portafolio Digital
 
-Desarrolla los siguientes 10 desafíos siguiendo el **Formato de 5-Bloques** (Marco Teórico, Resolución, Discusión Crítica de Semáforo, Análisis de Sensibilidad y Transferencia). Para el Portafolio digital solo presenta 4 Desafios.
+Resuelve los siguientes 10 desafíos siguiendo el **Formato de 5-Bloques**. Para el Portafolio digital solo presenta 4 Desafios.
 
 **Desafío 1: El Brazo Robótico de Soldadura**
 Un brazo robótico sigue la función $x(t) = t^3 - 9t^2 + 24t$.
@@ -146,10 +167,10 @@ La posición de un émbolo sensor es $x(t) = \frac{10t}{t^2 + 4}$.
 * **El Reto:** Determina el instante de máxima elongación y la velocidad en ese punto.
 * **Análisis Crítico:** ¿Qué sucede con la velocidad cuando $t \to \infty$?
 
-**Desafío 3: El Carrete de Bobinado Cíclico**
-Un carrete lineal se mueve según $x(t) = 2t^3 - 15t^2 + 36t$.
+**Desafío 3: Riel Belt-Driven**
+Un deslizador sobre un riel Belt-Driven se mueve según $x(t) = 2t^3 - 15t^2 + 36t$.
 * **El Reto:** Analiza los tramos de aumento y disminución de rapidez.
-* **Toma de Decisión:** Si el carrete jala cobre y lo lleva hasta otro punto, ¿en qué tramos el estiramiento del cable corre más riesgo debido a cambios bruscos de rapidez? Justifica si recomendarías cambiar el motor por uno con un perfil de velocidad constante.
+* **Toma de Decisión:** Si el deslizador jala cobre y lo lleva hasta otro punto, ¿en qué tramos el estiramiento del cable corre más riesgo debido a cambios bruscos de rapidez? Justifica si recomendarías cambiar el motor por uno con un perfil de velocidad constante.
 
 **Desafío 4: El Tren Maglev y el Frenado Dinámico**
 Un tren experimenta una aceleración $a(v) = -0.5v$. Entra a la zona de estación a $v_0 = 20 \, \text{m/s}$.
@@ -157,7 +178,7 @@ Un tren experimenta una aceleración $a(v) = -0.5v$. Entra a la zona de estació
 * **Análisis Técnico:** ¿Llegará el tren a detenerse por completo (v=0) en un tiempo finito según este modelo matemático? Compara la eficiencia de este frenado contra un freno de fricción mecánica de aceleración constante.
 
 **Desafío 5: El Contactor Eléctrico**
-Un contacto eléctrico tiene una aceleración dependiente de la posición $a(x) = 4x$. Parte de $x = 0.1 \, \text{m}$ con $v = 0$.
+Un contactor eléctrico tiene una aceleración dependiente de la posición $a(x) = 4x$. Parte de $x = 0.1 \, \text{m}$ con $v = 0$.
 * **El Reto:** Encuentra la velocidad en función de la posición $v(x)$.
 * **Interpretación Profesional:** En ingeniería eléctrica, la fuerza de atracción aumenta conforme los contactos se acercan. ¿Qué impacto tiene esta aceleración creciente en el desgaste de las caras de contacto por impacto?
 
@@ -167,7 +188,7 @@ Un actuador magnético se desplaza sobre un riel lineal de baja fricción. Al de
 * **Toma de Decisión:** Un técnico sugiere que el ventilador se detiene más rápido si se aplica un freno de contracorriente ($a = \text{constante}$). Basándote en el cálculo, ¿cuál modelo garantiza una parada más suave para evitar daños por fatiga en los rodamientos?
 
 **Desafío 7: El Pulso de Corriente en un Solenoide**
-Una partícula dentro de un campo variable tiene $v(t) = V_0(1 - e^{-t/\tau})$.
+Una partícula dentro de un campo variable tiene $v(t) = v_0(1 - e^{-t/\tau})$.
 * **El Reto:** Halla las funciones de posición $x(t)$ y aceleración $a(t)$.
 * **Análisis de Sensibilidad:** ¿Qué significa físicamente la constante de tiempo $\tau$? Si $\tau$ tiende a cero (respuesta instantánea), ¿qué sucede con el valor de la aceleración inicial y cómo afecta esto a la estructura mecánica del solenoide?
 
