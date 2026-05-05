@@ -120,7 +120,7 @@ Un nadador quiere cruzar un río de ancho $d_1 = 50$ m. La máxima rapidez con l
 
 - (d) el ángulo $\theta$ con el que debe nadar para llegar exactamente al punto frente a su partida.
 
-```{figure} /figuras/s04_fig3.png
+```{figure} https://raw.githubusercontent.com/jnolorbe/fisica1/main/figuras/s04_fig3.png
 :width: 40%
 :align: center
 ```
@@ -187,7 +187,7 @@ Un caza militar vuela horizontalmente a $v_0 = 1800$ km/h (500 m/s) y a una altu
 - (e) la distancia horizontal entre el avión y la bomba en el instante del impacto.
  
 
-```{figure} /figuras/s04_fig4.jpg
+```{figure} https://raw.githubusercontent.com/jnolorbe/fisica1/main/figuras/s04_fig4.jpg
 :width: 40%
 :align: center
 ```
@@ -261,7 +261,7 @@ Durante el siglo XVIII, el Fuerte Real Felipe del Callao protegía el principal 
 - (e) si un cañón posicionado en la muralla a $15$ m sobre el nivel del mar puede alcanzar una goleta pirata anclada a $4$ km de distancia disparando a $40°$.
  
 
-```{figure} /figuras/s04_fig6.jpeg
+```{figure} https://raw.githubusercontent.com/jnolorbe/fisica1/main/figuras/s04_fig6.jpeg
 :width: 50%
 :align: center
 ```
@@ -369,7 +369,7 @@ Desde la base de un plano inclinado con ángulo $\alpha = 20°$ respecto a la ho
 
 - (c) demostrar que el ángulo de alcance máximo sobre el plano inclinado es $\theta_{max} = 45° + \frac{\alpha}{2}$
 
-```{figure} /figuras/s04_fig7.png
+```{figure} https://raw.githubusercontent.com/jnolorbe/fisica1/main/figuras/s04_fig7.png
 :width: 50%
 :align: center
 ```
@@ -450,7 +450,7 @@ En una cámara de burbujas de física de partículas, se observan diferentes tra
 - (f) la distancia total recorrida en ese intervalo.
 
 
-```{figure} /figuras/s04_fig8.png
+```{figure} https://raw.githubusercontent.com/jnolorbe/fisica1/main/figuras/s04_fig8.png
 :width: 50%
 :align: center
 ```
