@@ -21,7 +21,10 @@ project:
         - file: sesion1.md
         - file: sesion2.md
         - file: sesion3.md
-        - file: sesion4.md         
+        - file: sesion4.md
+    - title: Unidad 2
+      children:
+        - file: sesion5.md        
 site:
   template: book-theme
   options:
